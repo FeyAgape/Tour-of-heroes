@@ -1,6 +1,6 @@
 # TourOfHeroes
 
-The Tour of Heroes follows the Tour of Heores Angualar official tutotial which uses the fundamentals of Angular.
+The Tour of Heroes follows the Tour of Heores Angualar official [tutotial](https://angular.io/tutorial) which uses the fundamentals of Angular.
 
 The app helps a staffing agency manage its stable of heroes. This basic app has many of the features you'd expect to find in a data-driven application. It acquires and displays a list of heroes, edits a selected hero's detail, and navigates among different views of heroic data.
 
@@ -30,7 +30,9 @@ Run `npm install` first to install the node modules.
 
 Run `ng serve --open` for a dev server. 
 
+```
 The `--open` flag opens a browser to `http://localhost:4200/.`. The app will automatically reload if you change any of the source files.
+```
 
 
 ## Code scaffolding
