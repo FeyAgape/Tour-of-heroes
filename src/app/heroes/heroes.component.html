@@ -1,5 +1,7 @@
 <h2>My Heroes</h2>
 
+<app-hero-detail [hero]="selectedHero"></app-hero-detail>
+
 <div>
 <ul class="heroes">
   <li *ngFor="let hero of heroes"
@@ -10,4 +12,3 @@
 </ul>
 <div>
 
-<app-hero-detail [hero]="selectedHero"></app-hero-detail>

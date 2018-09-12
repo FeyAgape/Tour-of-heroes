@@ -37,6 +37,8 @@ The `--open` flag opens a browser to `http://localhost:4200/.`. The app will aut
 
 Run `ng generate component component-name` to generate a new component. 
 
+Run `ng generate service hero` to generate a new service. 
+
 You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
 
