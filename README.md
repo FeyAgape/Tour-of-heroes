@@ -37,10 +37,16 @@ The `--open` flag opens a browser to `http://localhost:4200/.`. The app will aut
 
 Run `ng generate component component-name` to generate a new component. 
 
-Run `ng generate service hero` to generate a new service. 
-
 You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
+Run `ng generate service hero` to generate a new service. 
+
+Run `ng generate service herong generate module app-routing --flat --module=app` to generate a new module.
+
+```
+`--flat` puts the file in src/app instead of its own folder.
+`--module=app` tells the CLI to register it in the imports array of the AppModule.
+```
 
 ## Build
 
