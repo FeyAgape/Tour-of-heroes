@@ -10,6 +10,10 @@
     cursor: pointer;
     list-style-type: none;
   }
+
+  h4 {
+    color: #607d8b;
+}
   
   .search-result li:hover {
     background-color: #607D8B;
@@ -30,6 +34,7 @@
   #search-box {
     width: 200px;
     height: 20px;
+    border: 1px solid #000;
   }
   
   ul.search-result {

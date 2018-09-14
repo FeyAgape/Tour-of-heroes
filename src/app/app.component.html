@@ -1,7 +1,36 @@
 <!--The content below is only a placeholder and can be replaced.-->
-<nav>
+<nav class="header">
+<div class="all-nav-item">
+<div class="logo">
   <a routerLink="/dashboard"><img width="50" alt="Angular Logo" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg=="></a>
+</div>
+<div class="link">
   <a routerLink="/heroes">Heroes</a>
+  <a routerLink="/dashboard">Dashboard</a>
+</div>
+<div class="social-media">    
+      <ul class="social-icons">
+          <li  class="nav-item">
+              <a  class="nav-link" data-original-title="Follow us on Twitter" data-placement="bottom" href="https://twitter.com/FeyAgape" rel="tooltip" target="_blank" title="">
+                  <i  class="fa fa-twitter"></i>
+              </a>
+          </li>
+          <li  class="nav-item">
+              <a  class="nav-link" data-original-title="Like us on Facebook" data-placement="bottom" href="https://www.linkedin.com/in/feyijaware/" rel="tooltip" target="_blank" title="">
+                  <i  class="fa fa-linkedin"></i>
+              </a>
+          </li>
+          <li  class="nav-item">
+              <a  class="nav-link" data-original-title="Follow us on Instagram" data-placement="bottom" href="https://www.instagram.com/feyagape/" rel="tooltip" target="_blank" title="">
+                  <i  class="fa fa-instagram"></i>
+              </a>
+          </li>
+      </ul>
+</div>
+<div class="search">
+  <app-hero-search></app-hero-search>
+</div>
+</div>
 </nav>
 <div style="text-align:center">
   <h1>{{ title }}</h1>
@@ -9,18 +38,24 @@
 </div>
 
 <router-outlet></router-outlet>
-<app-messages></app-messages>
+<app-messages class="notification"></app-messages>
 
-<h2>Footer Here </h2>
-<ul>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/tutorial">One</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://github.com/angular/angular-cli/wiki">Two</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://blog.angular.io/">Three</a></h2>
-  </li>
-</ul>
 
+<section class="footer">
+  <div class="footer-container">
+    <div class="footer-row">
+          <nav class="footer-nav">
+              <ul>
+                  <li><a href="https://ijawarefey.bitbucket.io/" target="_blank" rel="noopener">Portfolio</a></li>
+                  <li><a href="https://medium.com/@feyagape" target="_blank" rel="noopener">Blog</a></li>
+                  <li><a href="https://feyagape.github.io/" target="_blank" rel="noopener">Website</a></li>
+              </ul>
+          </nav>
+          <div class="copyrights-content">
+              <span class="copyright" >
+                  © 2018  Made with <i class="fa fa-heart heart"></i> by Fey Ijaware
+              </span>
+          </div>
+        </div>
+      </div>
+</section>
