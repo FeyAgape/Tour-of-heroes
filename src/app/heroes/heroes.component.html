@@ -1,6 +1,17 @@
-<h2>My Heroes</h2>
+<div class="heroes-container">
+  <h2 class="title">The Heroes</h2>
 
-<div>
+<div class="add-new">
+    <label>Add new Hero:
+      <input #heroName />
+    </label>
+    <!-- (click) passes input value to add() and then clears the input -->
+    <button (click)="add(heroName.value); heroName.value=''">
+      save
+    </button>
+  </div>
+
+  <div class="list-of-heroes">
     <ul class="heroes">
         <li *ngFor="let hero of heroes">
           <a routerLink="/detail/{{hero.id}}">
@@ -12,12 +23,5 @@
       </ul>
 <div>
 
-  <div>
-    <label>Hero name:
-      <input #heroName />
-    </label>
-    <!-- (click) passes input value to add() and then clears the input -->
-    <button (click)="add(heroName.value); heroName.value=''">
-      add
-    </button>
-  </div>
+  
+</div>
